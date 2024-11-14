@@ -2,7 +2,6 @@
 
 Este repositório contém o código de um painel admin, feito com payloadCMS, onde é possível criar usuários, produtos, catálogo de produtos e adicionar produtos em um catálogo. 
 <br>
-<br>
 
 ## Considerações importantes
 #### Todas as rotas foram testadas no insomnia
@@ -19,7 +18,6 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 - Ao seguir os passos você precisára setar um ambiente do tipo Prod no canto superior direito e irá setar esta url de produção  https://testpayloadcms-production.up.railway.app/api
 - Agora é só testar as rotas
 
-<br>
 <br>
 
 
@@ -40,7 +38,6 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 - [ x ] Deve ser possível listar um catálogo com seus respectivos produtos
 - [ x ] Rotas de usuários, produtos e catálogos devem ser autenticadas
 <br>
-<br>
  
 ## Regras de negócio
 
@@ -54,14 +51,12 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 - [ ] Somente usuários admin devem conseguir executar certas features como apagar um
 
 <br>
-<br>
 
 ## Requisitos não funcionais
 
 - [ x ] Dados da aplicação devem ser armazenados em um banco MongoDB
 - [ x ] A autenticação devem ser feita via PayloadCMS
 - [ ] Adicionar a política de segurança CORS à api 
-<br>
 <br>
 
 ## Autenticação
@@ -76,7 +71,6 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 - Foi criado ums instância do do mongoDB no serviço [Atlas](https://www.mongodb.com/pt-br/cloud/atlas/register)
 - Foi feito o deploy da API payloadCMS no serviço [Railway](https://railway.app)
 
-<br>
 <br>
 
 ![Captura de tela do projeto](print.png)
