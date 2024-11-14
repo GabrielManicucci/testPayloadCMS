@@ -64,10 +64,17 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 <br>
 <br>
 
+## Autenticação
+- Como vocês já usam e também facilita muito a criação da rest-api, foi usada a autenticação própria do PayloadCMS
+
 ## Banco de dados 
 
 - Para existir um catálogo de produtos em um sistema, primeiro deve existir duas entidades, que são os produtos e os catálogos. Porém, porém só existe um catálogo, seja qual for, se existir outra entidade que vá ser ligada a este catálogo. Então concluímos que não existe catálogo sem produtos, então nota-se que existe um relacionamento entre essas duas tabelas que chamamos de muitos para um. Já que uma das regras de negócio do projeto era que um catálogo deveria pertencer a um usuário, então teríamos a relação de um para muitos, na qual um catálogo pode pertencer a um usuário mas um usuário pode criar vários catálogos. Então foi criada a relação nas collections do payload, na qual um catálogo foi criado por um usuário. 
 - As demais entidades como produtos e usuários seguiram os demais padrões de seus campos. Como nome e descrição sendo strings e sem relaçoes...
+
+## Deploy 
+- Foi criado ums instância do do mongoDB no serviço [Atlas](https://www.mongodb.com/pt-br/cloud/atlas/register)
+- Foi feito o deploy da API payloadCMS no serviço [Railway](https://railway.app)
 
 <br>
 <br>
