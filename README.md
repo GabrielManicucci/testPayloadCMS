@@ -6,6 +6,7 @@ Este repositório contém o código de um painel admin, feito com payloadCMS, on
 ## Considerações importantes
 #### Todas as rotas foram testadas no insomnia
 #### Toda a documentação de rotas das rotas, considerando status, objeto de requisição e resposta, parâmetros... foi passada para o ApiDog. Então na raiz deste reporitório tem um arquivo na qual você poderá baixar e importar para o seu ApiDog, então basta acessar o arquivo TestePayloadCMS.apidog.json na raiz deste repositório, baixar o arquivo após sleciona-lo, acessar o ApiDog de forma remota ou localmente, e acessar as rotas. Segue o passo a passo abaxo. 
+
 #### Passa a passo para testar pelo payloadCMS
  - Acesse https://testpayloadcms-production.up.railway.app/admin
  - Crie seu usuário admin
